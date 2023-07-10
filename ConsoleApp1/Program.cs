@@ -1,6 +1,7 @@
-﻿string firstFriend = "gaurav";
-string secondFriend = "aman";
-Console.WriteLine($"my friends are {firstFriend} and {secondFriend}");
-Console.WriteLine($"the name {firstFriend} has {firstFriend.Length} letters.");
-Console.WriteLine($"the name {secondFriend} has {secondFriend.Length} letters.");
+﻿string sayHello = "Hello World";
+Console.WriteLine(sayHello);
+sayHello = sayHello.Replace("World", "Aman");
+Console.WriteLine(sayHello);
+Console.WriteLine(sayHello.ToUpper());
+Console.WriteLine(sayHello.ToLower());
 Console.ReadKey();
